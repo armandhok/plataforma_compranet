@@ -1,0 +1,28 @@
+{
+  "pagination": {
+    "pageSize": 3,
+    "page": 1,
+    "total": 77523
+  },
+  "metadata": {
+    "anio": 2017,
+    "objeto": "tipo_procedimiento"
+  },
+  "resultados": [
+    {
+      "tipo": "licitación pública",
+      "num_proc": 39000,
+      "monto": 195000000
+    },
+    {
+      "tipo": "adjudicación directa",
+      "num_proc": 517000,
+      "monto": 1454999000
+    },
+    {
+      "tipo": "invitación a tres",
+      "num_proc": 45600,
+      "monto": 243423243
+    }
+  ]
+}
