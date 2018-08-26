@@ -6,36 +6,54 @@
 	},
 
 	"metadata": {
-		"anio": 2017,
-		"objeto": "tipo_procedimiento"
+		"nivel_gobierno": "federal"
 	},
-	"resultados": [
-	  {
-		"nivel_gobierno": "federal",
+
+
+	"resultados": [{
 		"monto": 6435323,
 		"num_contratos": 43233,
-		"instituciones": [
-		  {
+		"instituciones": [{
 			"institucion": "sep",
 			"monto": 7644,
 			"num_contratos": 764,
-			"materias": [
-			  {
+			"materias": [{
 				"materia": "servicios",
 				"monto": 234,
 				"num_contratos": 34,
-				"tipos": [
-				  {
-					"tipo": "licitación pública",
-					"monto": 131,
-					"num_contratos": 23,
-					"montos": [
-					  {
-						"quartil": 1,
-						"monto": 32,
-						"num_contratos": 17
-					}]
-				}]
+				"tipos": [{
+						"tipo": "licitación pública",
+						"monto": 131,
+						"num_contratos": 23,
+						"montos": [{
+								"quartil": 1,
+								"monto": 32,
+								"num_contratos": 9
+							},
+							{
+								"quartil": 2,
+								"monto": 25,
+								"num_contratos": 14
+							}
+						]
+					},
+					{
+						"tipo": "adjudicación directa",
+						"monto": 103,
+						"num_contratos": 28,
+						"montos": [{
+								"quartil": 1,
+								"monto": 28,
+								"num_contratos": 14
+							},
+							{
+								"quartil": 2,
+								"monto": 44,
+								"num_contratos": 14
+							}
+						]
+					}
+				]
 			}]
 		}]
 	}]
