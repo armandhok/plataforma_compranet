@@ -16,7 +16,7 @@
     * Ejemplo Respuesta:
 
 ```json 
-{nivel_gob: ‘federal’,  num_dep: 176,  num_proc: 5460000, monto: 500000000 }
+{"nivel_gob": ‘federal’,  "num_dep": 176,  "num_proc": 5460000, "monto": 500000000 }
 ```
 
 * **Resumen de montos (Diagrama de dona):**
