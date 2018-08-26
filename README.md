@@ -60,7 +60,8 @@
     * Parámetros de ordenamiento
       * Monto
       * Fecha
-    * Agregados 
+    * Agregados
+      * Institución
       * Monto de contratación
       * Vigencia en días naturales
       * Fecha de firma
@@ -69,7 +70,7 @@
     * Ejemplo respuesta:
 
 ```json 
-[{"nombre_proc": "proc_1", "anio": 2017, "mes": "enero", "fecha_firma": "2017-01-12 T 18:00:00", "vigencia_dias": 1345, "tipo": "liciatación pública", "monto": 84882142332’}"...".]
+[{"nombre_proc": "proc_1", "institucion": "imss", "anio": 2017, "mes": "enero", "fecha_firma": "2017-01-12 T 18:00:00", "vigencia_dias": 1345, "tipo": "liciatación pública", "monto": 84882142332’}"...".]
 ```
 
 
