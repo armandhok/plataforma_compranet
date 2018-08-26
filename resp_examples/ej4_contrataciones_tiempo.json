@@ -1,0 +1,43 @@
+{
+	"pagination": {
+		"pageSize": 3,
+		"page": 1,
+		"total": 74460
+	},
+
+	"metadata": {
+		"nivel_gobierno": "federal",
+		"anio": 2017,
+		"mes": "enero"
+	},
+
+
+	"resultados": [{
+			"nombre_proc": "proc_1",
+			"anio": 2017,
+			"mes": "enero",
+			"fecha_firma": "2017-01-12 T 18:00:00",
+			"vigencia_dias": 1345,
+			"tipo": "liciatación pública",
+			"monto": 84882142332
+		},
+		{
+			"nombre_proc": "proc_2",
+			"anio": 2017,
+			"mes": "enero",
+			"fecha_firma": "2017-01-13 T 15:00:00",
+			"vigencia_dias": 821,
+			"tipo": "adjudicación directa",
+			"monto": 73857917
+		},
+		{
+			"nombre_proc": "proc_3",
+			"anio": 2017,
+			"mes": "enero",
+			"fecha_firma": "2017-01-25 T 11:30:00",
+			"vigencia_dias": 365,
+			"tipo": "invitación a tres",
+			"monto": 100850400
+		}
+	]
+}
