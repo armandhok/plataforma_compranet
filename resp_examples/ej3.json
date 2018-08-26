@@ -1,0 +1,42 @@
+{
+	"pagination": {
+		"pageSize": 5,
+		"page": 1,
+		"total": 22486
+	},
+
+	"metadata": {
+		"anio": 2017,
+		"objeto": "tipo_procedimiento"
+	},
+	"resultados": [
+	  {
+		"nivel_gobierno": "federal",
+		"monto": 6435323,
+		"num_contratos": 43233,
+		"instituciones": [
+		  {
+			"institucion": "sep",
+			"monto": 7644,
+			"num_contratos": 764,
+			"materias": [
+			  {
+				"materia": "servicios",
+				"monto": 234,
+				"num_contratos": 34,
+				"tipos": [
+				  {
+					"tipo": "licitación pública",
+					"monto": 131,
+					"num_contratos": 23,
+					"montos": [
+					  {
+						"quartil": 1,
+						"monto": 32,
+						"num_contratos": 17
+					}]
+				}]
+			}]
+		}]
+	}]
+}
