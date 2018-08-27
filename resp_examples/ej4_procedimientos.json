@@ -1,0 +1,49 @@
+{
+	"pagination": {
+		"pageSize": 3,
+		"page": 1,
+		"total": 74460
+	},
+
+	"metadata": {
+		"nivel_gobierno": "federal",
+		"anio": 2017,
+		"tipo de procedimiento": "invitación a tres"
+	},
+
+	"resultados": [
+	  {
+			"titulo_proc": "proc_1",
+			"institucion": "SCT",
+			"monto": 84882142332,
+			"anio": 2017,
+			"mes": "enero",
+			"fecha_firma": "2017-01-12 T 18:00:00",
+			"etapa": "Contratación",
+			"tipo": "invitación a tres",
+			"nivel_gob": "Federal"
+		},
+		{
+			"titulo_proc": "proc_2",
+			"institucion": "CONAGUA",
+			"monto": 918475,
+			"anio": 2017,
+			"mes": "junio",
+			"fecha_firma": "2017-06-29 T 12:00:00",
+			"etapa": "Licitación",
+			"tipo": "invitación a tres",
+			"nivel_gob": "Federal"
+		},
+		{
+			"titulo_proc": "proc_3",
+			"institucion": "AGROASEMEX",
+			"monto": 1975716,
+			"anio": 2017,
+			"mes": "noviembre",
+			"fecha_firma": "2017-11-13 T 13:00:00",
+			"etapa": "Planeación",
+			"tipo": "invitación a tres",
+			"nivel_gob": "Federal"
+		}
+	]
+}
