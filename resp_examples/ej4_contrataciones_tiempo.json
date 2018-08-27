@@ -14,6 +14,7 @@
 
 	"resultados": [{
 			"nombre_proc": "proc_1",
+			"institucion": "imss",
 			"anio": 2017,
 			"mes": "enero",
 			"fecha_firma": "2017-01-12 T 18:00:00",
@@ -23,6 +24,7 @@
 		},
 		{
 			"nombre_proc": "proc_2",
+			"institucion": "sedesol",
 			"anio": 2017,
 			"mes": "enero",
 			"fecha_firma": "2017-01-13 T 15:00:00",
@@ -32,6 +34,7 @@
 		},
 		{
 			"nombre_proc": "proc_3",
+			"institucion": "sct",
 			"anio": 2017,
 			"mes": "enero",
 			"fecha_firma": "2017-01-25 T 11:30:00",
