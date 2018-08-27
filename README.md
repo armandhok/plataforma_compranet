@@ -82,9 +82,10 @@
     * Parámetros de ordenamiento
       * Monto
       * Fecha
-      * Dependencia
+      * Institución
       * Etapa (planeación, licitación, adjudicación, contratación, implementación)
     * Agregados
+      * Institución
       * Monto de contratación
       * Vigencia en días naturales
       * Fecha de firma
@@ -93,7 +94,7 @@
     * Ejemplo respuesta:
 
 ```json 
-[{"nombre_proc": "proc_1", "anio": 2017, "mes": "enero", "fecha_firma": "2017-01-12 T 18:00:00", "etapa": "Contratación", "tipo": "liciatación pública", "monto": 84882142332, "dependencia": "SCT", "nivel_gob": "Federal"}"...".]
+[{"nombre_proc": "proc_1", "anio": 2017, "mes": "enero", "fecha_firma": "2017-01-12 T 18:00:00", "etapa": "Contratación", "tipo": "liciatación pública", "monto": 84882142332, "institucion": "SCT", "nivel_gob": "Federal"}"...".]
 ```
 
 * *Nota: Comprendemos que algunos de los criterios de búsqueda y filtros son redundantes, no obstante desglosamos la funcionalidad por sección para mayor comprensión del desarrollador. El que éste tome la decisión de integrar diversos puntos de acceso en uno mismo es una decisión de diseño.*
