@@ -75,26 +75,31 @@
 
 
 * **Procedimientos de contratación:**
-    * Parámetros de búsqueda/filtrado
+    * Parámetros de búsqueda
+      * Título de procedimiento
+      * Proveedor
+      * Institución
+      * Detalles del tipo de procedimiento      
+    * Parámetros de filtrado
       * Nivel de gobierno
-      * Año, mes (fecha de firma)
+      * Tipo de procedimiento
+      * Año
       * Paginación
     * Parámetros de ordenamiento
       * Monto
       * Fecha
       * Institución
-      * Etapa (planeación, licitación, adjudicación, contratación, implementación)
     * Agregados
+      * Titulo de procedimiento
       * Institución
       * Monto de contratación
-      * Vigencia en días naturales
+      * Etapa actual
       * Fecha de firma
       * Tipo de procedimiento (licitación pública, adjudicación directa, convenio de colaboración, invitación a tres, otros)
-      * Titulo de procedimiento
     * Ejemplo respuesta:
 
 ```json 
-[{"nombre_proc": "proc_1", "anio": 2017, "mes": "enero", "fecha_firma": "2017-01-12 T 18:00:00", "etapa": "Contratación", "tipo": "liciatación pública", "monto": 84882142332, "institucion": "SCT", "nivel_gob": "Federal"}"...".]
+"resultados": [{"titulo_proc": "proc_1", "institucion": "SCT", "monto": 84882142332, "anio": 2017, "mes": "enero", "fecha_firma": "2017-01-12 T 18:00:00", "etapa": "Contratación", "tipo": "invitación a tres", "nivel_gob": "Federal"},"...".]
 ```
 
 * *Nota: Comprendemos que algunos de los criterios de búsqueda y filtros son redundantes, no obstante desglosamos la funcionalidad por sección para mayor comprensión del desarrollador. El que éste tome la decisión de integrar diversos puntos de acceso en uno mismo es una decisión de diseño.*
