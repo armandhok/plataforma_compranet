@@ -1,5 +1,5 @@
 [
-  {"id": 1, "name": 165, "calories": "100 mil", "fat": "$500 mil millones"},
-  {"id": 2, "name": 96, "calories": "12.7 mil", "fat": "$72 mil millones"},
-  {"id": 3, "name": 58, "calories": "6.1 mil", "fat": "$28 mil millones"}
+  {"id": 1, "inst": 165, "proc": "100 mil", "mont": "$500 mil millones"},
+  {"id": 2, "inst": 96, "proc": "12.7 mil", "mont": "$72 mil millones"},
+  {"id": 3, "inst": 58, "proc": "6.1 mil", "mont": "$28 mil millones"}
 ]
