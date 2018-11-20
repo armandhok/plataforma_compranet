@@ -1,5 +1,5 @@
 [
-  {"id": 1, "inst": 75, "proc": "10 mil", "mont": "$300 mil millones"},
-  {"id": 2, "inst": 36, "proc": "1.7 mil", "mont": "$32 mil millones"},
-  {"id": 3, "inst": 18, "proc": "3.1 mil", "mont": "$18 mil millones"}
+  {"id": 1,"niv": "Federal",  "inst": 75, "proc": "10 mil", "mont": "$300 mil millones"},
+  {"id": 2, "niv": "Estatal", "inst": 36, "proc": "1.7 mil", "mont": "$32 mil millones"},
+  {"id": 3, "niv": "Municipal",  "inst": 18, "proc": "3.1 mil", "mont": "$18 mil millones"}
 ]
